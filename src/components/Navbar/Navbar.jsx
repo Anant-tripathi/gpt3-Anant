@@ -1,7 +1,7 @@
 import "./Navbar.css";
-import logo from "../../assets/logo.png";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import { useState } from "react";
+import gpt3logo from "../../assets/logo.svg";
 
 //NOTE:  css naming converion used : BEM -> Block Element Modifier
 
@@ -33,7 +33,7 @@ export default function Navbar() {
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_logo">
-          <img src={logo} alt="logo" />
+          <img src={gpt3logo} alt="logo" />
         </div>
         <div className="gpt3__navbar-links_container">
           <Menu />
