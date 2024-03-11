@@ -8,6 +8,12 @@ Source: [JavaScript Mastery's Youtube Video](https://www.youtube.com/watch?v=F62
 - CSS
 - Figma
 
+## Development Setup
+
+- Neovim
+- Arch Linux Plasma
+- Google chrome
+
 ## Features
 
 - Browse different sections via internal links
